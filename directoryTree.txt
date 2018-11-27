@@ -1,0 +1,80 @@
+.
+|
+|-- var
+|   `-- www
+|       |-- cgi-bin
+|       |   `-- 
+|       |
+|       |-- guide
+|       |   |-- spamtrapguide.fld
+|       |   |   |-- filelist.xml
+|       |   |   |-- header.html
+|       |   |   `-- themedata.thmx
+|       |   |
+|       |   `-- SpamtrapGuidev2.1.html
+|       |
+|       |-- html
+|       |   `-- 
+|       |
+|       |-- temp
+|       |   |-- files
+|       |   |   `-- orders.txt
+|       |   |
+|       |   |-- ch1    // "using PHP"                         
+|       |   |   |-- a                       // "PHP crash course"
+|       |   |   |   |-- orderform.html
+|       |   |   |   `-- processorder.php
+|       |   |   |
+|       |   |   |-- b                       // "storing and retrieving data"
+|       |   |   |   |-- orderform.html
+|       |   |   |   |-- processorder.php
+|       |   |   |   `-- vieworders.php
+|       |   |   | 
+|       |   |   |-- c                       // "using arrays"
+|       |   |   |   |-- orderform.html
+|       |   |   |   |-- processorder.php
+|       |   |   |   `-- vieworders.php
+|       |   |   |
+|       |   |   |-- d                       // "string manipulation and regular expressions"
+|       |   |   |   |-- orderform.html
+|       |   |   |   |-- processfeedback.php
+|       |   |   |   |-- processorder.php
+|       |   |   |   `-- vieworders.php
+|       |   |   |
+|       |   |   |-- e                       // "reusing code and writing functions (with scope)" no changes
+|       |   |   |   |-- orderform.html
+|       |   |   |   |-- processfeedback.php
+|       |   |   |   |-- processorder.php
+|       |   |   |   `-- vieworders.php
+|       |   |   |
+|       |   |   |-- f                       // "object oriented php"
+|       |   |   |   |-- orderform.html
+|       |   |   |   |-- processfeedback.php
+|       |   |   |   |-- processorder.php
+|       |   |   |   |-- vieworders.php
+|       |   |
+|       |   |-- ch2
+|       |   |   |--
+|       |   |   |--
+|       |   |   |--
+|       |   |   `--
+|       |
+|       |-- tracker
+|       |   |-- script.js
+|       |   `-- SpamtrapTracker.html  
+|       |
+|       |-- directoryTree.txt
+|       |-- favicon.ico
+|       |-- index.html
+|       |-- softlayer.png
+|       `-- threebars.png 
+|
+`-- etc
+    |-- httpd
+    |   `-- conf
+    |       |-- httpd.conf
+    |       `-- magic
+    |
+    `-- bashrc
+
+

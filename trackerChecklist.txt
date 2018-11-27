@@ -1,0 +1,69 @@
+
+There needs to be input vars for data entered by the user and for each listing there needs to be an accordion for storage of the emails received for the hit
+    
+        - New Listing vars:
+            [ ] email address
+            [ ] employee name
+            [ ] date of posting
+            [ ] location of posting
+            [ ] other notes
+
+        - Email Hit vars for each listing:     
+            [ ] timestamp of hit
+            [ ] source IP
+            [ ] source email address
+            [ ] source domain 
+            [ ] source network registrar ASN info
+            [ ] email headers
+
+        [ ] the timestamp Email Hit vars should be sortable across all hits for a listing
+        [ ] the source domain Email Hit vars should be sortable across all hits for a listing
+    
+
+We need vars to act as counters for some of the data
+    
+        [ ] counter for all listings created
+        [ ] counter for all emails received for each listing
+        [ ] counter for all emails received across all listings
+        [ ] for each ASN across all listings, there should be a counter for emails received on their network
+
+
+There shouold be a way for those inputted vars to appear on the page in an expected fashion (JavaScript?) on various load selections:
+
+        - on page load:
+            [ ] PHP retrieves data stored in mysql
+                [ ] New Listing vars
+                [ ] Email Hit vars
+                [ ] counter vars
+            [ ] retrieved data is displayed on page
+        
+        - on New Listing form submit click:
+            [ ] error checking for input validity 
+            [ ] count of listings created is updated
+            [ ] each input stored in PHP var
+            [ ] PHP sends input data to mysql
+            [ ] listing div is created with data from each input
+            [ ] the listing div will hold an accordion drop-down to store email hits with its own submit button
+            
+        - on accordion submit button click, alert appears with:
+            [ ] inputs for each Email Hit var
+            [ ] a submit button
+            [ ] on alert's submit bubtton click:
+                [ ] PHP stores data in mysql
+                [ ] data is displayed under accordion
+                [ ] individual listing hit counter updated
+                [ ] hit counter for all listings updated
+                [ ] ASN info is checked and the ASN is added if needed and hit counts are updated
+        
+
+MySQL database and tables need to be configured
+
+
+PHP needs to be able to send all input data to MySQL
+
+
+PHP needs to be able to read all data from MySQL
+
+
+There should be a method of altering or deleting DB items after they're already stored, based upon new inputs and actions given by a user
+
